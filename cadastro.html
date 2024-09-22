@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="VIEWPORT" content="widthd=device-width, initial-scale=1.0">
+    <title>Cadastro de usuario/title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>formulario de cadastro</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nome">nome completo</label>
+            <input type="text" id="nome" name="nome" placeholder="digite seu nome completo" required>
+        </div>
+        <div class="form-group">
+            <label for="email">endereço de email</label>
+            <input type="email" id="email" name="email" placeholder="digite seu email" required>
+        </div>
+        <div class="form-group">
+            <label for="senha">senha</label>
+            <input type="password" id="senha" name="SENHA" placeholder="digite sua senha" required>
+        </div>
+        <div class="form-group">
+            <label for="confirmar senha">confirmar senha</label>
+            <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="confirme sua senha" required>
+        </div>
+        <div class="form-group">
+            <label for="perfil">perfil</label>
+            <select id="perfil" name="perfil" required>
+                <option value="">selecione um perfil</option>
+                <option value=professor"">professor</option>
+                <option value="admistrador">admistrador</option>
+        </div>
+    </form>
+</body>
+</html>
