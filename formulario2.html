@@ -62,47 +62,40 @@ button {
 </head>
 <body>
 
-    <h1>cadastro de usuario</h1>
+    <h1>cadastro de usuarios</h1>
 
-    <form method="post" action="#">
-
+    <form method="post" action="a">
         <fieldset>
 
-        <label for="nomepessoa">nome:</label><br>
-        <input name="nomepessoa" type="text" placeholder="nome completo" required><br><br>
+            <label for="nomepessoa">nome:</label><br>
+            <input name="nomepessoa" type="text" placeholder="nome completo" required><br><br>
 
+            <label for="emailpessoa">email:</label>
+            <input name="emailpessoa" type="email" placeholder="@gmail.com" required><br><br>
 
-        <label for="emailpessoa">email:</label><br>
-        <input name="emailpessoa" type="email" placeholder="@gmail.com" required><br><br>
+            <label for="senhapessoa">senha pessoa:</label><br>
+            <input name="senhapessoa" type="password" minlength="6" required><br><br>
 
+            <label for="senhapessoa">confirmar senha:</label><br>
+            <input name="senhapessoa" type="password" minlength="6" required><br><br>
 
-        <label for="senhapessoa">confirmar senha:</label><br>
-        <input name="senhapessoa" type="password" minlength="6" required><br><br>
+            <label for="perfilpessoa">perfil:</label><br>
 
+            <select name="=perfilpessoa">
 
-        <label for="senhapessoa">confirmar senha:</label><br>
-        <input name="senhapessoa" type="password" minlength="6" required><br><br>
-
-        <label for="perfilpessoa">perfil</label><br><br>
-
-
-        <select name="perfilpessoa">
-
-            <option value="" date-default disabled selected>selecione um perfil</option>
-            <option value="professor">professor</option>
-            <option value="admistrador">admistrador</option>
-            <option value="jogador">jogador</option>
-
+                <option value="" date-default disabled selected>selecione um perfil</option>
+                <option value="professor">professor</option>
+                <option value="admistrador">admistrador</option>
+                <option value="jogador">jogador</option>
 
             </select><br><br><br>
 
 
-            <p> <button type="submit">login</button></p>
+            <p><button type="submit">login</button></p>
 
-         </fieldset>
-
+        </fieldset>
 
     </form>
-
+    
 </body>
 </html> 
